@@ -10,21 +10,34 @@
   
 </head>
 <body>
+  <!-- 标题区 -->
     <div id="header" >
+      <!-- 每个区都有公共的inner -->
         <div  class="inner">
             <div class="container_2_camping_text">🐻の物语</div>
             
 
         </div>
     </div>
-    <div id="nav" >
-        <div  class="inner">
-           
-        
+    <!-- 导航区 ，有三个超链接-->
+    <nav>
+        <div class="container_2_camping_text">
+        <ul>
+        <li><a href="旅行.html">旅行日志</a></li>
+        <li><a href="校园.html">校园景色</a></li>
+        <li><a href="爱好.html">兴趣爱好</a></li>
+      </ul>
     </div>
-     <!-- 一号内容区,这个区又分为两个部分 -->
+    </nav>
+                
+              
+              
+        
+   
+     <!-- 一号内容区container_1,这个区又分为两个部分container_1_1，container_1_2 -->
     <div id="container_1" >
         <div  class="inner">
+          <!-- 1区内容，运用表格形式对本网站进行介绍 -->
             <div id="container_1_1" >
                 
                 <table>
@@ -52,7 +65,7 @@
                   
             
             </div>
-
+            <!-- 2区，是一些朋友的照片，是第一个主要内容区，采用表单实现图片切换并用了一些js -->
             <div id="container_1_2">
                 <div style="text-align: center;">
                  <label for="image-select-2">选想看的照片:</label>
@@ -75,7 +88,7 @@
             </div>
         </div>
     </div>
-     <!-- 二号内容区,这个区又分为三个部分 -->
+     <!-- 二号内容区container_2,这个区又分为三个部分container_2_1，container_2_2，container_2_3 -->
     <div id="container_2" >
         <div  class="inner">
             
@@ -120,7 +133,8 @@
            </div>
             
         </div>
-       
+        <!-- 音乐部分 -->
+        <audio src="./music/Samuel Kim - Call of Silence.flac" controls autoplay></audio>
     </div>
     <script src="./图片每秒轮换.js"></script>
 </body>
