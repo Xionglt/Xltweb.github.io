@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>登录</title>
+  <!-- css为login.css -->
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+  <h2>登录</h2>
+  <!-- php后端文件 -->
+  <form action="login.php" method="POST">
+    <!-- 以表格形式呈现的表单，输入用户名，密码，年龄，性别实现登录 -->
+    <table>
+      <tr>
+        <th><label for="username">用户名:</label></th>
+        <td><input type="text" id="username" name="username" required></td>
+      </tr>
+      <tr>
+        <th><label for="password">密码:</label></th>
+        <td><input type="password" id="password" name="password" required></td>
+      </tr>
+      <tr>
+        <th><label for="age">年龄:</label></th>
+        <td><input type="text" id="age" name="age" required></td>
+      </tr>
+      <tr>
+        <th><label for="gender">性别:</label></th>
+        <td>
+          <select id="gender" name="gender" required>
+            <option value="">请选择</option>
+            <option value="male">男</option>
+            <option value="female">女</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="登录">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
