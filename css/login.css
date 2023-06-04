@@ -1,0 +1,46 @@
+/* 登录界面的css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(../images/背景.jpg );
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  table {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    width: 300px;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+/* 右侧浮动布局 */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
